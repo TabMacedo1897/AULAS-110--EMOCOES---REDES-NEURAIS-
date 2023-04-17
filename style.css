@@ -1,0 +1,62 @@
+  body
+  {
+    color: white;
+    background: #c0d3ff;
+  }
+.emotion_name
+  {
+    font-size: 40px;
+    /*Adicione height a esse elemento (por esse ser um nome, não forneça muita height)*/
+   
+  }
+  .emoji
+  {
+    font-size:48px;
+    /*Adicione height a esse elemento (enquanto o emoji for exibido, forneça um aumento na height)*/
+    
+  }
+  span
+  {
+    font-size: 30px;
+  }
+button{
+   border-radius: 50px !important;
+}
+  
+  #camera, #result
+  {
+    width: 310px;
+    height: 310px; 
+    background-color: black;
+    border-radius: 10px;
+  
+  }
+  .snapshot{
+    background-color: white;
+    width: 340px;
+    height: 430px;
+     padding:10px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 5px gray;
+  }
+  #result_emotion_name ,#result_emotion_name2  
+  {
+    color: black;
+  }
+  .heading
+  {
+    font-size: 18px;
+    border-radius: 10px;
+    letter-spacing: 10px;
+  }
+  label
+  {
+    font-size: 14px;
+    color: #62b33a;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: white;
+  }
+img{
+  border:1px solid black;
+}
